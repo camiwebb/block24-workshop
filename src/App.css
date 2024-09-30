@@ -40,3 +40,39 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Added by me */
+.App p {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.App p:hover {
+  color: #3498db;
+}
+
+.Featured-Pup {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ade6f5aa;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: left;
+}
+
+.Featured-Pup h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Featured-Pup ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Featured-Pup li {
+  font-size: 16px;
+  margin: 5px 0;
+}
